@@ -9,7 +9,7 @@ import { DomSanitizer } from '@angular/platform-browser';
 import {UserModel, ProjectModel,
        ImageProjectModel, AdressReseauxSociauxProjectModel, commentProjectModel,
        LikeProjectUserModel, VueProjectUserModel,
-       fondInvestorBis, HeartProjectUserModel, FavorisProjectUserModel,
+       HeartProjectUserModel, FavorisProjectUserModel,
        NewsProjectModel, StatutProjectModel, PorteProjectModel, CategorieProjectModel,
        InvestiteurProjectModel, fondInvestor,
         ResponseConnectionUserModel, QuestionRepProjectModel, QuestionRepProjectRequestModel, userDestModel} from '../interfaces/models';
@@ -1005,7 +1005,7 @@ export class ProjectShowCompanyOwnerComponent implements OnInit {
     saveDataTransactionPaypal() {
 
       // tslint:disable-next-line:max-line-length
-      this.apiService.saveDataTransactionPaypal(this.ObjetResponseConnection, this.tokenProject, this.fondInvestor._investisseurProject.token, this.fondInvestor).subscribe((datapay: fondInvestorBis) => {
+      this.apiService.saveDataTransactionPaypal(this.ObjetResponseConnection, this.tokenProject, this.fondInvestor._investisseurProject.token, this.fondInvestor).subscribe((datapay: fondInvestor) => {
 
         console.log('datapay', datapay);
 
@@ -1297,7 +1297,7 @@ export class ProjectShowCompanyOwnerComponent implements OnInit {
       // recuperer la liste des questions envoye par l'admin (id-admin ='1' ) pour le compagny owner
 
       // tslint:disable-next-line:max-line-length
-      this.apiService.getListQuestionReponsesBetweenManagerAndUser(this.ObjetResponseConnection, this.tokenProject).subscribe((arrayQuestionByAdminForUser: Array<QuestionRepProjectBetweenManagerAndUserModel>) => {
+      this.apiService.getListQuestionReponsesBetweenManagerAndUser(this.ObjetResponseConnection, this.tokenProject).subscribe((arrayQuestionByAdminForUser: Array<QuestionRepProjectModel>) => {
 
 
          // tslint:disable-next-line:prefer-for-of

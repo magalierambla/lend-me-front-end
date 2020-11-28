@@ -832,7 +832,7 @@ getListQuestionsAides() {
   // recuperer la liste des questions envoye par l'admin (id-admin ='1' ) pour le compagny owner
 
   // tslint:disable-next-line:max-line-length
-  this.apiService.getListQuestionReponsesBetweenManagerAndUser(this.ObjetResponseConnection, this.tokenProject).subscribe((arrayQuestionByAdminForUser: Array<QuestionRepProjectBetweenManagerAndUserModel>) => {
+  this.apiService.getListQuestionReponsesBetweenManagerAndUser(this.ObjetResponseConnection, this.tokenProject).subscribe((arrayQuestionByAdminForUser: Array<QuestionRepProjectModel>) => {
 
 
      // tslint:disable-next-line:prefer-for-of

@@ -1,11 +1,11 @@
 import { Injectable, Inject } from '@angular/core';
 import { HttpClient, HttpHeaders} from '@angular/common/http';
-import {UserModel, ProjectModel, ProjectModelBis,  ImageProjectModel
-  , AdressReseauxSociauxProjectModel, commentProjectModel, StatutProjectModel,
-  QuestionRepProjectByAdminForUserModel, QuestionRepProjectByUserForAdminModel,
-    QuestionRepProjectByUserForUserModel, InvestiteurProjectModelBis, fondInvestorBis, FavorisProjectUserModel,
-    // tslint:disable-next-line:max-line-length
-    HeartProjectUserModel, LikeProjectUserModel, VueProjectUserModel, NewsProjectModel, CommissionProjectModel, MessageInterneModel, ResponseConnectionUserModel, ConnectionUserModel, InscriptionUserModel, TypeStatistiqueModel, StatutDemandeInvest} from './interfaces/models';
+import {UserModel, ProjectModel,  ImageProjectModel, AdressReseauxSociauxProjectModel,
+        commentProjectModel, StatutProjectModel, FavorisProjectUserModel,
+        HeartProjectUserModel, LikeProjectUserModel, VueProjectUserModel,
+        NewsProjectModel, CommissionProjectModel, MessageInterneModel,
+         ResponseConnectionUserModel, ConnectionUserModel, InscriptionUserModel,
+          TypeStatistiqueModel, StatutDemandeInvest} from './interfaces/models';
 import { Observable } from 'rxjs/internal/Observable';
 
 

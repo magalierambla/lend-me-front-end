@@ -273,8 +273,8 @@ export class StatistiquesChartsDislikesModel {
 }
 
 export class TypeStatistiqueModel {
-  year: number;
-  month: number;
+  year: string;
+  month: string;
   type_statistique: string;
 }
 

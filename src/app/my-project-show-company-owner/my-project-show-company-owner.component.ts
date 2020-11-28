@@ -20,7 +20,7 @@ import { Color, Label, MultiDataSet } from 'ng2-charts';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 import Swal from 'sweetalert2/dist/sweetalert2.js';
-import { type } from 'jquery';
+
 
 declare var window: any;
 
@@ -1262,7 +1262,7 @@ getStatustiquesDislikeDaysChart(){
       // recuperer la liste des questions envoye par l'admin (id-admin ='1' ) pour le compagny owner
 
       // tslint:disable-next-line:max-line-length
-      this.apiService.getListQuestionReponsesBetweenManagerAndUser(this.ObjetResponseConnection, this.tokenProject).subscribe((arrayQuestionByAdminForUser: Array<QuestionRepProjectBetweenManagerAndUserModel>) => {
+      this.apiService.getListQuestionReponsesBetweenManagerAndUser(this.ObjetResponseConnection, this.tokenProject).subscribe((arrayQuestionByAdminForUser: Array<QuestionRepProjectModel>) => {
 
 
          // tslint:disable-next-line:prefer-for-of
