@@ -1,0 +1,41 @@
+
+<header id="header">
+  <!-- end: .wrap-top-menu -->
+  <div class="container_12 clearfix">
+      <div class="grid_12 header-content">
+          <div id="sys_header_right" class="header-right">
+              <div class="account-panel">
+                  <a routerLink="/Identification" routerLinkActive="active"  class="btn btn-red sys_show_popup_login">Inscription</a>
+                  <a routerLink="/Identification" routerLinkActive="active"  class="btn btn-black sys_show_popup_login">Connection</a>
+              </div>
+              <div class="form-search">
+                  <form action="#">
+                      <label for="sys_txt_keyword">
+                          <input id="sys_txt_keyword" class="txt-keyword" type="text"  [(ngModel)] = "keyword" name="keyword"    placeholder="Rechercher un projet"  >
+                      </label>
+                      <button class="btn-search" type="reset"  (click)="searchProjectsByMotCle()"><i class="icon iMagnifier"></i></button>
+                      <button class="btn-reset-keyword" type="reset"><i class="icon iXHover"></i></button>
+                  </form>
+              </div>
+          </div>
+          <div class="header-left">
+              <h1 id="logo">
+                  <a href="index.html"><img src="images/logo.png" alt=""></a>
+              </h1>
+              <div class="main-nav clearfix">
+                  <div class="nav-item">
+                      <a href="category.html" class="nav-title">Discover</a>
+                      <p class="rs nav-description">Great Projects</p>
+                  </div>
+                  <span class="sep"></span>
+                  <div class="nav-item">
+                      <a href="#" class="nav-title">Start</a>
+                      <p class="rs nav-description">Your Project</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</header>
+
+  
