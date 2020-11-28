@@ -3,15 +3,11 @@ sudo: false
 
 language: node_js
 node_js:
-  - '12'
+  - '12.18.3'
 
 addons:
-  apt:
-    sources:
-      - google-chrome
-    packages:
-      - dpkg  
-      - google-chrome-stable
+  chrome: stable
+  
 
 cache:
   directories:
