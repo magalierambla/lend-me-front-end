@@ -180,7 +180,7 @@
                   <div class="col-lg-4 col-md-6 mb-4"  *ngFor="let project of listProjects; let i = index ">
                     <div class="card h-100"   >
 
-                      <img class="card-img-top" [src]="listtemplateProjects[i].heartUser" (click)="addHeartProject(i, project)" alt="" style="width :35px;height:35px;z-index: 10;margin-left:92%" >
+                      <img class="card-img-top" [src]="listtemplateProjects[i].heartUser" (click)="addHeartProject(i)" alt="" style="width :35px;height:35px;z-index: 10;margin-left:92%" >
                      
                       <img class="card-img-top" [src]="project.afficheProject" alt="" style="width :300px;height:200px;margin-left:20%;" [routerLink]="['/user-projetcs-show' , project.token ]">
                       <div class="card-body">
@@ -241,7 +241,7 @@
 
                         <button type="button" class="btn btn-info" style="margin-right: 1%;"  *ngIf="listtemplateProjects[i].favorisProject==0" (click)="addProjectByMyFavoris(i, project)">Ajoutera mes favoris</button>
 
-                        <button type="button" class="btn btn-danger" style="margin-right: 1%;"  *ngIf="listtemplateProjects[i].favorisProject==1" (click)="removeProjectByMyFavoris(i, project)">Supprimer de mes favoris</button>
+                        <button type="button" class="btn btn-danger" style="margin-right: 1%;"  *ngIf="listtemplateProjects[i].favorisProject==1" (click)="removeProjectByMyFavoris(i)">Supprimer de mes favoris</button>
 
                        
 

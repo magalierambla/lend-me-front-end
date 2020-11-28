@@ -2,6 +2,7 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import {Router} from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
+import { UserModel } from 'src/app/interfaces/models';
 
 @Component({
   selector: 'app-nav-admin-templates',
@@ -10,16 +11,7 @@ import { CookieService } from 'ngx-cookie-service';
 })
 export class NavTemplatesAdministratorComponent implements OnInit {
 
-  public infosUser = {
-                     id : '',
-                     nom: '',
-                     prenom : '',
-                     login : '',
-                     password : '',
-                     sex : '',
-                     photoUser : '',
-                     typeCompte : ''
-    };
+  public infosUser: UserModel = new UserModel();
 
  public urlImageProfil: string;
 
