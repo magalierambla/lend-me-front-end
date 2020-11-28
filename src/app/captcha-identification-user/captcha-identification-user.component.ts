@@ -97,7 +97,7 @@ export class CaptchaIdentificationUserComponent implements OnInit {
     this.ngxService.start();
 
 
-    this.apiService.identificationUser(this.ObjetLogin).subscribe((data: any) => {
+  /*  this.apiService.identificationUser(this.ObjetLogin).subscribe((data: any) => {
 
       console.log('IdentificationComponent/identification', data);
 
@@ -148,7 +148,7 @@ export class CaptchaIdentificationUserComponent implements OnInit {
 
     }, (error: any) => {
 
-    });
+    }); */
 
 
   }

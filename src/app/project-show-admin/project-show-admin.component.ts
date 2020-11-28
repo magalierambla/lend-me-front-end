@@ -646,9 +646,9 @@ getStatustiquesHeartsChart(){
 
   _type_stat.type_statistique = 'Last12Month';
 
-  _type_stat.year = 0;
+  _type_stat.year = '0';
 
-  _type_stat.month = 0;
+  _type_stat.month = '0';
 
 
   // tslint:disable-next-line:max-line-length
@@ -678,9 +678,9 @@ getStatustiquesVuesChart(){
 
   _type_stat.type_statistique = 'Last12Month';
 
-  _type_stat.year = 0;
+  _type_stat.year = '0';
 
-  _type_stat.month = 0;
+  _type_stat.month = '0';
 
 
   // tslint:disable-next-line:max-line-length
@@ -713,9 +713,9 @@ getStatustiquesLikesChart(){
 
   _type_stat.type_statistique = 'Last12Month';
 
-  _type_stat.year = 0;
+  _type_stat.year = '0';
 
-  _type_stat.month = 0;
+  _type_stat.month = '0';
 
 
   // tslint:disable-next-line:max-line-length
@@ -748,9 +748,9 @@ getStatustiquesDislikesChart(){
 
   _type_stat.type_statistique = 'Last12Month';
 
-  _type_stat.year = 0;
+  _type_stat.year = '0';
 
-  _type_stat.month = 0;
+  _type_stat.month = '0';
 
 
   // tslint:disable-next-line:max-line-length

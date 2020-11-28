@@ -696,9 +696,9 @@ getStatustiquesDislikeDaysChart(){
 
       _type_stat.type_statistique = 'Last12Month';
 
-      _type_stat.year = 0;
+      _type_stat.year = '0';
 
-      _type_stat.month = 0;
+      _type_stat.month = '0';
 
 
       // tslint:disable-next-line:max-line-length
@@ -728,9 +728,9 @@ getStatustiquesDislikeDaysChart(){
 
       _type_stat.type_statistique = 'Last12Month';
 
-      _type_stat.year = 0;
+      _type_stat.year = '0';
 
-      _type_stat.month = 0;
+      _type_stat.month = '0';
 
 
       // tslint:disable-next-line:max-line-length
@@ -763,9 +763,9 @@ getStatustiquesDislikeDaysChart(){
 
       _type_stat.type_statistique = 'Last12Month';
 
-      _type_stat.year = 0;
+      _type_stat.year = '0';
 
-      _type_stat.month = 0;
+      _type_stat.month = '0';
 
 
       // tslint:disable-next-line:max-line-length
@@ -798,9 +798,9 @@ getStatustiquesDislikeDaysChart(){
 
       _type_stat.type_statistique = 'Last12Month';
 
-      _type_stat.year = 0;
+      _type_stat.year = '0';
 
-      _type_stat.month = 0;
+      _type_stat.month = '0';
 
 
       // tslint:disable-next-line:max-line-length
